@@ -83,9 +83,9 @@ int main (){
     srand(time(0));
     char player;
     char robot;
-    player = getplayer();
+    player = getplayer(); //Gán lựa chọn của người chơi vào char player.
     cout << "Your choice is: " ;
-    showchoice(player);
+    showchoice(player); //Từ lựa chọn của người chơi được gán vào player, sau đó được đưa vào void showchoice.
     robot = getrobot();
     cout << "Robot'choice is: " ;
     showchoice(robot);
